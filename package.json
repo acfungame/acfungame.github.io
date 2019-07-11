@@ -6,9 +6,9 @@
     "homepage": "http://acfungame.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/acfun-game/acfun-game.github.io"
+        "url": "https://github.com/acfungame/acfungame.github.io"
     },
-    "bugs": "https://github.com/acfun-game/acfun-game.github.io/issues",
+    "bugs": "https://github.com/acfungame/acfungame.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
