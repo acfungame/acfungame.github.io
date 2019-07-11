@@ -100,6 +100,12 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "AcFun游戏"
+        href: "http://game.acfun.cn/"
+    },{
+        title: "AcFun H5游戏"
+        href: "http://game.acfun.cn/h5game/"
+    },{
         title: "Apple",
         href: "https://apple.com"
     },{
