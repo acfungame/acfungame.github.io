@@ -12,7 +12,7 @@ github_repo: "https://github.com/acfungame/acfungame.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "AC在，爱一直在！<AcFun游戏开源组>"
-sidebar-avatar: /img/ac_about.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/ac_avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
