@@ -1,0 +1,115 @@
+# Site settings
+title: AcFun游戏开源组
+SEOTitle: AcFun游戏开源组 | AcFunGame
+header-img: img/post-bg-desk.jpg
+email: shiguang1120@qq.com
+description: "AC在，爱一直在！<AcFun游戏开源组>"
+keyword: "AcFun, Game, 游戏, PC, PS, XBox, Steam, iOS, Apple, iPhone, Android, LibGDX, Unity, Unreal"
+url: "http://acfungame.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/acfungame/acfungame.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "AC在，爱一直在！<AcFun游戏开源组>"
+sidebar-avatar: /img/ac_about.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     shiguang1120
+zhihu_username:     shiguang1120
+github_username:    acfungame
+facebook_username:  shiguang1120
+#jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: acfungame
+
+# Gitalk
+#gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 119ff4476d663457849c                            #生成的clientID
+  clientSecret: 2a350f57409adbbac3d6cf6b44eb7d885f9a341b    #生成的clientSecret
+  repo: acfungame.github.io    #仓库名称
+  owner: acfungame    #github用户名
+  admin: acfungame
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: c5e964cdfe7c657ebb21508398185224
+
+# Google Analytics
+ga_track_id: 'UA-143621047-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Steam",
+        href: "https://store.steampowered.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    },{
+        title: "Android Developer",
+        href: "https://developer.android.com"
+    }
+]
