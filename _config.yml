@@ -4,7 +4,7 @@ SEOTitle: AcFun游戏开源组 | AcFunGame
 header-img: img/post-bg-desk.jpg
 email: shiguang1120@qq.com
 description: "AC在，爱一直在！<AcFun游戏开源组>"
-keyword: "AcFun, Game, 游戏, PC, PS, XBox, Steam, iOS, Apple, iPhone, Android, LibGDX, Unity, Unreal"
+keyword: "AcFun, Game, 游戏, PC, PS, XBox, Switch, Steam, iOS, Apple, iPhone, Android, LibGDX, Unity, Unreal"
 url: "http://acfungame.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/acfungame/acfungame.github.io.git" # you code repository
